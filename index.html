@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Function Method</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+       
+         <!--===========================
+                  Main box start
+         ============================-->
+
+       <div class="container">
+
+         <!--===========================
+                Input Box  Start
+         ============================-->
+       <div class="center"> 
+        <div class="box"> 
+            <h1 class="heading">INPUT BOX</h1>
+            
+              <div class="show">
+    
+                 <input type="text" class="input" list="Same" placeholder="Search Box"> <br>
+                 <datalist id="Same">
+                    <option value="Tanvir">
+                    <option value="Ahamed">
+                    <option value="Soysov">
+                    <option value="Tohomina">
+                    <option value="Mehedi">
+                    <option value="Miner">
+                  </datalist>
+                 
+
+                 <button class="btn">Search</button>
+             
+              </div>
+                  
+        </div>
+       </div> 
+        <!--===========================
+                Input Box End
+         ============================-->
+   
+         <!--===========================
+               Search  Box 
+         ============================-->   
+         <div class="output2">
+
+              <div class="output3">
+                <h1 class="heading">Result BOX</h1>                
+          
+                  <img src="" alt="" class="img">
+                  <h3 class="hi" id="name"></h3>
+                  <h3 class="hi" id="age"></h3>
+                  <h3 class="hi" id="des"></h3>
+                  <h3 class="hi" id="blood"></h3>
+
+                  <h1 class="error"> Result Not Found</h1>
+
+              </div>
+
+         </div>
+         <!--===========================
+               current output box 
+         ============================-->
+  
+       </div>
+
+        <!--===========================
+                  Main box end
+         ============================-->
+       <!-- last moment here -->
+
+     
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

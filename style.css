@@ -1,0 +1,156 @@
+/*================================
+       Universal  Box  Start
+==================================*/
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient( to right,
+   #6fb7e0 50%,
+    #9de071 50%);
+}
+/*================================
+       Universal  Box  End
+==================================*/
+/*================================
+       Input  Box  Start
+==================================*/
+
+.center{
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;  
+}
+
+.box{
+  box-shadow: 12px 12px 5px 0px rgba(84,56,56,0.50);
+  text-align: center;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 470px;
+  height: 160px;  
+  margin-bottom: 10px;
+  
+}
+
+.show{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*================================
+       Input  Box   End 
+==================================*/
+/*================================
+       Result Box Start
+==================================*/
+
+.output2{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;  
+    justify-items: center;
+    align-items: center;
+}
+
+.output3{
+    text-align: center;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 470px;
+    height: 459px;
+    box-shadow: 12px 19px 5px 0px rgba(84,56,56,0.50); 
+}
+
+
+.heading{
+    text-align: center;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;   
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    color: darkcyan; 
+}
+
+
+
+.input{
+
+    width: 300px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+    color: #663399;
+    padding: 12px 0;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #202020;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    background-color: #90d6d3;
+    margin-right: 20px;
+}
+
+
+.input:focus{
+  outline: none;
+}
+
+
+
+.btn{
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  background-color: #5cc92a;
+  padding: 12px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid #202020;
+  cursor: pointer;
+}
+
+
+
+.hi{
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-size: 24px;
+}
+
+
+img{
+  display: none;
+  width: 330px;
+  height: 230px;
+  border: 1px solid #202020;
+}
+
+
+.error{
+  display:none ;
+}
+
+datalist {
+  position: absolute;
+  background-color: rgb(224, 218, 218);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
